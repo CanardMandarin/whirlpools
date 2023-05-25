@@ -141,12 +141,12 @@ pub fn swap(
                 )?;
 
                 curr_liquidity = next_liquidity;
-                swap_tick_sequence.update_tick(
-                    next_array_index,
-                    next_tick_index,
-                    tick_spacing,
-                    &update,
-                )?;
+//                swap_tick_sequence.update_tick(
+//                    next_array_index,
+//                    next_tick_index,
+//                    tick_spacing,
+//                    &update,
+//                )?;
             }
 
             let tick_offset = swap_tick_sequence.get_tick_offset(
